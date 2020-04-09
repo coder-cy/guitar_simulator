@@ -7,6 +7,7 @@ class GuitarSimulator {
         this.GUITAR_FRET_TOTAL = 12;
         this.fretData = {};
         this.container = el("#guitar_container");
+        this.selectBox = el("#select_box");
         this.init();
     }
     init() {
