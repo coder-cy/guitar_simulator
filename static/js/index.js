@@ -42,7 +42,7 @@ class GuitarSimulator {
         this.container.innerHTML = inner;
     }
     renderSelectOptions() {
-        let inner = "";
+        let inner = "<option style='display: none'></option>";
         for (const majorOrMinorName in musicalScaleData) {
             const musicalScaleList = musicalScaleData[majorOrMinorName];
             inner += `
