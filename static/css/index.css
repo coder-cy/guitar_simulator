@@ -1,0 +1,133 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+li, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bg_default {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+#guitar_container {
+    position: relative;
+    width: 1750px;
+    height: 400px;
+    margin: 200px auto;
+    background-image: url('../img/bg.png');
+}
+.string {
+    position: absolute;
+    left: 10px;
+    width: 1196px;
+    height: 1px;
+    /* background: blue; */
+}
+.string1 {
+    top: 124px;
+    transform: rotateZ(-0.7deg);
+}
+.string2 {
+    top: 157px;
+    transform: rotateZ(-0.6deg);
+}
+.string3 {
+    top: 185px;
+}
+.string4 {
+    top: 217px;
+    transform: rotateZ(0.4deg);
+}
+.string5 {
+    top: 243px;
+    transform: rotateZ(0.6deg);
+}
+.string6 {
+    top: 275px;
+    transform: rotateZ(0.9deg);
+}
+
+.fret {
+    position: relative;
+    float: left;
+    height: 100%;
+}
+.fret > * {
+    position: absolute;
+}
+.fret .touch_point {
+    left: 50%;
+    top: 50%;
+    width: 18px;
+    height: 18px;
+    margin-left: -9px;
+    margin-top: -9px;
+    background: red;
+    border-radius: 50%;
+}
+.fret .content {
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    background: blue;
+}
+.fret input[type=text] {
+
+}
+
+.fret1 {
+    width: 140px;
+    background: red;
+}
+.fret2 {
+    width: 125px;
+    background: green;
+}
+.fret3 {
+    width: 115px;
+    background: orangered;
+}
+.fret4 {
+    width: 115px;
+    background: darkcyan;
+}
+.fret5 {
+    width: 108px;
+    background: darkred;
+}
+.fret6 {
+    width: 102px;
+    background: blue;
+}
+.fret7 {
+    width: 96px;
+    background: purple;
+}
+.fret8 {
+    width: 90px;
+    background: crimson;
+}
+.fret9 {
+    width: 84px;
+    background: blueviolet;
+}
+.fret10 {
+    width: 80px;
+    background: coral;
+}
+.fret11 {
+    width: 74px;
+    background: dodgerblue;
+}
+.fret12 {
+    width: 66px;
+    background: brown;
+}
