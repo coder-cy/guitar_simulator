@@ -83,12 +83,21 @@ li, ul {
     transform: translateY(-50%);
     width: 18px;
     height: 18px;
-    background: blue;
+    text-align: center;
+    line-height: 18px;
+    color: #000;
+    font-weight: bold;
 }
 .fret input[type=text] {
 
 }
 
+.fret0 {
+    width: 60px;
+    background: red;
+    margin-left: -60px;
+    height: 0;
+}
 .fret1 {
     width: 140px;
     background: red;
