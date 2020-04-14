@@ -9,7 +9,7 @@ li, ul {
     margin: 0;
 }
 
-#select_container {
+#select_container, #reset_button_container {
     width: 1750px;
     height: 30px;
     margin: 50px auto 0 auto;
@@ -89,60 +89,52 @@ li, ul {
     font-weight: bold;
 }
 .fret input[type=text] {
-
+    width: 30%;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -10px;
 }
 
 .fret0 {
     width: 60px;
-    background: red;
     margin-left: -60px;
     height: 0;
 }
 .fret1 {
     width: 140px;
-    background: red;
 }
 .fret2 {
     width: 125px;
-    background: green;
 }
 .fret3 {
     width: 115px;
-    background: orangered;
 }
 .fret4 {
     width: 115px;
-    background: darkcyan;
 }
 .fret5 {
     width: 108px;
-    background: darkred;
 }
 .fret6 {
     width: 102px;
-    background: blue;
 }
 .fret7 {
     width: 96px;
-    background: purple;
 }
 .fret8 {
     width: 90px;
-    background: crimson;
 }
 .fret9 {
     width: 84px;
-    background: blueviolet;
 }
 .fret10 {
     width: 80px;
-    background: coral;
 }
 .fret11 {
     width: 74px;
-    background: dodgerblue;
 }
 .fret12 {
     width: 66px;
-    background: brown;
 }
